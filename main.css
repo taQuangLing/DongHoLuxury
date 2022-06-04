@@ -1,0 +1,286 @@
+body{
+	margin: 0px;
+	font-family: 'Lato-Regular';
+}
+p{
+	margin: 0px;
+}
+.div_1{
+	width: 100%;
+	height: 60px;
+	padding: 0px;
+	margin: 0px;
+	background: black;
+}
+.container{
+	width: 1170px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 0px 10px 0px 10px;
+}
+.top-header{
+	width: 100%;
+	height: 100%;
+}
+.header-left{
+	float: left;
+	width: 50%;
+	height: 37px;
+}
+#select_1{
+	margin-top: 22px;
+	border: transparent;
+	background: black;
+	color: white;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.header-right{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.gio_hang{
+	margin-top: 10px;
+	text-align: right;
+}
+#span_131{
+	color: white;
+}
+#span_132{
+	color: #9a9a9a;
+	font-size: 12px;
+}
+.logo{
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	border-bottom: 1px solid #DEDEDE;
+}
+.logo span{
+	font-family: "Lora-Regular";
+	color: black;
+	font-size: 32px;
+	margin: 0;
+	font-weight: 100px;
+}
+a:link{
+	text-decoration: none;
+}
+.menu{
+	width: 100%;
+	height: 70px;
+}
+.menu-left{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.menu-right{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+.menu span{
+	float: left;
+	margin: 25px 30px 25px 20px;
+	color: black;
+	font-size: 17px;
+}
+.search{
+	float: right;
+	border: solid 1px black;
+	width: 237px;
+	height: 36px;
+	margin: 17px 0px 17px 0px;
+}
+.search input{
+	border: transparent;
+	width: 189px;
+	height: 18px;
+	float: left;
+	padding: 9px 0px 9px 10px;
+	outline: none;
+}
+.search input[type="submit"]{
+	background: url(images/search.png)no-repeat 0px 0px;
+	width: 18px;
+    height: 18px;
+    margin: 9px;
+    float: right;
+    border: 0;
+}
+.banner{
+	margin-bottom: 65px;
+	width: 100%;
+	height: 550px;
+}
+.banner img{
+	width: 100%;
+}
+.about{
+	width: 100%;
+}
+.abt-n{
+	height: 250px;
+	width: 100%;
+}
+.abt{
+	position: relative;
+	width: 350px;
+	float: left;
+	height: 250px;
+	padding: 0px 20px 0px 20px;
+}
+.product{
+	width: 100%;
+}
+.prod{
+
+	width: 100%;
+	background: white;
+	margin-top: 100px;
+}
+.prod-1{	
+	width: 100%;
+	height: 368px;
+	margin-top: 30px;
+}
+.prod-colum{
+	position: relative;
+	float: left;
+	width: 250px;
+	text-align: center;
+	margin: 0px 20px 0 20px;
+	border: solid 1px #c5c5c5;
+}
+.prod-colum-1{
+	
+	margin: 0 auto;
+	width: 252.5px;
+
+	padding: 15px 0px 20px 0px;	
+}
+.prod-colum-2{
+	padding-top: 15px;
+	text-align: left;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
+.smart-watches{
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.explore-now{
+	font-size: 13px;
+	color: gray;
+	margin-bottom: 15px;
+}
+.price span{
+	font-weight: bold;
+}
+.information{
+	width: 100%;
+	margin-top: 80px;
+}
+.information .prod-1{
+	height: 253px;
+	border-bottom: solid 1px gray;
+}
+.information .prod-colum{
+	border: none;
+}
+.prod-colum-infor{
+	float: left;
+	position: relative;
+	width: 252px;
+	text-align: left;
+	margin: 20px 20px 30px 20px;
+}
+h2{
+	font-size: 20px;
+	margin: 0 0 25px 0;
+}
+span.fb{
+	background: url(images/s-icons.png) no-repeat;
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+span.tw{
+	background: url(images/s-icons.png) no-repeat;
+	background-position: -34px 0;
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+span.gg{
+	background: url(images/s-icons.png) no-repeat;
+	background-position: -68px 0;
+	width: 34px;
+    height: 34px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+li{
+	list-style: none;
+	display: block;
+	color: gray;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.prod-colum-infor-1 li{
+	display: inline;	
+}
+.prod-colum-infor-1{
+	padding-top: 7px;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+}
+.footer .prod{
+	height: 32px;
+}
+.footer-left{
+	width: 50%;
+	float: left;
+}
+.prod-colum input[type="text"]{
+	width: 96%;
+	padding: 0 0 0 6px;
+	height: 30px;
+	border: solid 1px black;
+}
+input[type="submit"]{
+	background: white;
+	border: solid 1px black;
+	height: 100%;
+	width: 100%;
+}
+.txt{
+	width: 100%;
+	float: left;
+}
+.submit{
+	float: left;
+	height: 32px;
+	width: 100px;
+}
+.footer-right{
+	width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 10px;
+    text-align: right;
+}
+.footer-right span{
+	font-size: 15px;
+	padding-right: 20px;
+}
